@@ -1,0 +1,465 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Debabrata's Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@500&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b3ba998567.js"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Header and Navigation -->
+    <div id="head">
+        <header>
+            <nav>
+                <div class="left">Debabrata's Portfolio</div>
+
+                <div class="right">
+                    <ul id="sidemenu">
+                        <li><a href="#head">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Projects</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <main>
+
+        <!-- Home Section -->
+        <section class="firstSection">
+
+            <div class="leftSection">
+                Hello, My Name is
+                <span class="purple">Debabrata</span>
+
+                <div>and I am a passionate</div>
+
+                <span id="myText"></span>
+
+                <div class="buttons">
+
+                    <a href="./images/Debabrata_Mohanty_professional_Resume.pdf" download>
+                        <button type="button">
+                            <span></span>Download Resume
+                        </button>
+                    </a>
+
+                    <button type="button" onclick="location.href='https://github.com/Debabrata3013?tab=overview&from=2026-11-01&to=2026-11-26'">
+                        <span></span>Visit Github</button>
+
+                </div>
+            </div>
+
+            <div class="rightSection">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/011/153/360/small_2x/3d-web-developer-working-on-project-illustration-png.png"
+                    alt="Web developer illustration">
+            </div>
+
+        </section>
+
+        <hr>
+
+        <!-- About Section -->
+        <section id="about">
+
+            <div class="contener">
+                <div class="row">
+
+                    <div class="about-col-1">
+                        <img src="./images/WhatsApp Image 2025-04-04 at 14.04.29_8bbc4a8d.jpg"
+                            alt="Debabrata">
+                    </div>
+
+                    <div class="about-col-2">
+
+                        <h1 class="sub-title">About Me</h1>
+
+                        <p>
+                            I am a Computer Science Engineering graduate with knowledge
+                            of Java, Selenium, software testing, and web development.
+                            I am interested in learning new technologies and building
+                            useful software applications.
+                        </p>
+
+                        <div class="tab-titles">
+
+                            <p class="tab-links active-link"
+                                onclick="opentab('skills', event)">
+                                Skills
+                            </p>
+
+                            <p class="tab-links"
+                                onclick="opentab('education', event)">
+                                Education
+                            </p>
+
+                        </div>
+
+                        <!-- Skills -->
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li>
+                                    <span>Software Testing</span><br>
+                                    Manual and Automation Testing
+                                </li>
+
+                                <li>
+                                    <span>Automation</span><br>
+                                    Selenium, Java, TestNG
+                                </li>
+
+                                <li>
+                                    <span>Web Development</span><br>
+                                    HTML, CSS, JavaScript, Angular basics
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Education -->
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li>
+                                    <span>2018</span><br>
+                                    Matriculation
+                                </li>
+
+                                <li>
+                                    <span>2020</span><br>
+                                    Higher Secondary Education
+                                </li>
+
+                                <li>
+                                    <span>2024</span><br>
+                                    B.Tech in Computer Science Engineering
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Work Experience Section -->
+        <section class="secondSection">
+
+            <span class="text-gray">What I have done so far</span>
+
+            <h1>Work Experience</h1>
+
+            <div class="box">
+
+                <div class="vertical">
+                    <img class="image-top" src="./images/HTML5_logo.png" alt="HTML">
+
+                    <div class="vertical-title">
+                        HTML Developer
+                    </div>
+
+                    <div class="vertical-desc">
+                        Knowledge of HTML and web page structure.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="./images/nodejs-logo.png" alt="Node.js">
+
+                    <div class="vertical-title">
+                        Node.js
+                    </div>
+
+                    <div class="vertical-desc">
+                        Basic knowledge of JavaScript and web technologies.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="./images/ux-ui-logo.png" alt="UI UX">
+
+                    <div class="vertical-title">
+                        UI/UX Design
+                    </div>
+
+                    <div class="vertical-desc">
+                        Understanding user-friendly interfaces and layouts.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="./images/android-logo.png" alt="Android">
+
+                    <div class="vertical-title">
+                        App Development
+                    </div>
+
+                    <div class="vertical-desc">
+                        Basic understanding of application development.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="./images/bg (1).png" alt="Web development">
+
+                    <div class="vertical-title">
+                        Web Development
+                    </div>
+
+                    <div class="vertical-desc">
+                        Building and maintaining web applications.
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Services Section -->
+        <section id="services">
+
+            <div class="container">
+
+                <h1 class="sub-title">My Services</h1>
+
+                <div class="services-list">
+
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+
+                        <h2>Web Development</h2>
+
+                        <p>
+                            Creating responsive and user-friendly websites
+                            using HTML, CSS, and JavaScript.
+                        </p>
+
+                        <a href="#portfolio">Learn more</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+
+                        <h2>Software Testing</h2>
+
+                        <p>
+                            Testing applications to identify defects and
+                            improve software quality.
+                        </p>
+
+                        <a href="#portfolio">Learn more</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+
+                        <h2>Automation Testing</h2>
+
+                        <p>
+                            Automating web application test cases using
+                            Selenium WebDriver and Java.
+                        </p>
+
+                        <a href="#portfolio">Learn more</a>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Portfolio / Projects Section -->
+        <section id="portfolio">
+
+            <div class="container">
+
+                <h1 class="sub-title">My Work</h1>
+
+                <div class="work-list">
+
+                    <div class="work">
+                        <img src="./images/work-1.png" alt="Project 1">
+
+                        <div class="layer">
+                            <h3>To-Do List Application</h3>
+
+                            <p>
+                                A task management application for creating
+                                and managing daily tasks.
+                            </p>
+
+                            <a href="https://github.com/Debabrata3013"
+                                target="_blank">
+                                <i class="fa-solid fa-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="./images/work-2.png" alt="Project 2">
+
+                        <div class="layer">
+                            <h3>Automation Testing Project</h3>
+
+                            <p>
+                                Web application automation using Selenium,
+                                Java, and TestNG.
+                            </p>
+
+                            <a href="https://github.com/Debabrata3013"
+                                target="_blank">
+                                <i class="fa-solid fa-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="./images/work-3.png" alt="Project 3">
+
+                        <div class="layer">
+                            <h3>Portfolio Website</h3>
+
+                            <p>
+                                A personal portfolio website built using
+                                HTML, CSS, and JavaScript.
+                            </p>
+
+                            <a href="https://github.com/Debabrata3013"
+                                target="_blank">
+                                <i class="fa-solid fa-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <a href="https://github.com/Debabrata3013"
+                    target="_blank" class="btn">
+                    See more
+                </a>
+
+            </div>
+
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="contact-left">
+
+                        <h1 class="sub-title">Contact Me</h1>
+
+                        <p>
+                            <i class="fa-solid fa-paper-plane"></i>
+                            <a href="mailto:debabrata.dm13@gmail.com">
+                                debabrata.dm13@gmail.com
+                            </a>
+                        </p>
+
+                        <p>
+                            <i class="fa-solid fa-square-phone"></i>
+                            <a href="tel:+918260911186">
+                                +91 8260911186
+                            </a>
+                        </p>
+
+                        <div class="social-icons">
+
+                            <a href="https://x.com/Debabra12127319"
+                                target="_blank">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+
+                            <a href="https://www.instagram.com/debabratamohanty20/"
+                                target="_blank">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/debabrata-mohanty-946599236/"
+                                target="_blank">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+
+                            <a href="https://github.com/Debabrata3013"
+                                target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="contact-right">
+
+                    <form id="contact-form">
+
+                            <input type="text" name="Name"
+                                placeholder="Your Name" required>
+
+                            <input type="email" name="Email"
+                                placeholder="Your Email" required>
+
+                            <textarea name="Message" rows="6"
+                                placeholder="Write Your Message"></textarea>
+
+                            <button type="submit" class="btn">
+                                Submit
+                            </button>
+
+                        </form>
+
+                        <span id="msg"></span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer">
+            <p>
+                Developed By Debabrata Mohanty<br>
+                Copyright &copy; Debabrata Portfolio |
+                All rights reserved
+            </p>
+        </div>
+    </footer>
+
+    <!-- Typed.js library must load before script.js -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Your JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+</html>
